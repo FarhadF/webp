@@ -31,6 +31,7 @@ import "C"
 import (
 	"errors"
 	"unsafe"
+	_ "github.com/farhadf/webp/internal/include"
 )
 
 func webpGetInfo(data []byte) (width, height int, hasAlpha bool, err error) {
