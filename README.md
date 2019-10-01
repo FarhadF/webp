@@ -10,8 +10,8 @@ webp
  ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝
 ```
 
-[![Build Status](https://travis-ci.org/chai2010/webp.svg)](https://travis-ci.org/chai2010/webp)
-[![GoDoc](https://godoc.org/github.com/chai2010/webp?status.svg)](https://godoc.org/github.com/chai2010/webp)
+[![Build Status](https://travis-ci.org/farhadf/webp.svg)](https://travis-ci.org/farhadf/webp)
+[![GoDoc](https://godoc.org/github.com/farhadf/webp?status.svg)](https://godoc.org/github.com/farhadf/webp)
 
 Benchmark
 =========
@@ -25,7 +25,7 @@ Install
 Install `GCC` or `MinGW` ([download here](http://tdm-gcc.tdragon.net/download)) at first,
 and then run these commands:
 
-1. `go get github.com/chai2010/webp`
+1. `go get github.com/farhadf/webp`
 2. `go run hello.go`
 
 
@@ -43,7 +43,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/chai2010/webp"
+	"github.com/farhadf/webp"
 )
 
 func main() {
